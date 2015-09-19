@@ -58,7 +58,7 @@
 	float:left;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("/pics/proximity.png");
+	background-image: url("../pics/proximity.png");
 	margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@
 	float:right;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("/pics/esp8266.jpg");
+	background-image: url("../pics/esp8266.jpg");
 	margin: 0 auto;
 }
 
@@ -77,6 +77,6 @@
 	width: 49%;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("/pics/pcb.png");
+	background-image: url("../pics/pcb.png");
 	margin: 0 auto;
 }
