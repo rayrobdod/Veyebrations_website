@@ -1,0 +1,48 @@
+.frontBanner{
+	background-color: orange;
+	height: 100%;
+	width: 100%;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.titleCard{
+	bottom: 20%;
+	left: 10%;
+	height: 40%;
+	display: block;
+	position: absolute;
+}
+
+.title{
+	font-size: 500%;
+	color: white;
+}
+
+.description{
+	font-size: 150%;
+	color: white;
+	line-height: 200%;
+}
+
+.githubLink{
+	box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px inset;
+	width: 20%;
+	bottom: 10%;
+	height: 20%;
+	text-align: center;
+	line-height: 150%;
+	color: white;
+	font-size: 200%;
+	transition: all 0.3s;
+	cursor:pointer;
+}
+
+.githubLink:hover{
+	background-color: #FFCF0F;
+}
+
+.names{
+	font-size: 100%;
+	color: white;
+}
+
