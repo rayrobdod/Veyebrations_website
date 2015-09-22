@@ -47,36 +47,15 @@
 }
 
 .linksPage{
-	background-color: blue;
 	height: 100%;
 	width: 100%;
 }
 
-.proximity{
-	height: 49%;
-	width: 49%;
-	float:left;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../pics/proximity.png");
-	margin: 0 auto;
+.images{
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.radio{
-	height: 49%;
-	width: 49%;
-	float:right;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../pics/esp8266.jpg");
-	margin: 0 auto;
-}
 
-.pcb{
-	height: 49%;
-	width: 49%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url("../pics/pcb.png");
-	margin: 0 auto;
-}
