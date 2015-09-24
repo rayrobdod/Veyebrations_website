@@ -47,15 +47,48 @@
 }
 
 .linksPage{
-	height: 100%;
-	width: 100%;
 }
 
-.images{
+.image1{
+	background: rgba(0,0,0,0) url('../pics/proximity.png');
+	display: block;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size:cover;
+}
+
+.image2{
+	background: rgba(0,0,0,0) url('../pics/esp8266.jpg');
+	display: block;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size:cover;
+}
+
+.image3{
+	background: rgba(0,0,0,0) url('../pics/atmega328.jpg');
+	display: block;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-size:cover;
+}
+
+.image4{
+	background: rgba(0,0,0,0) url('../pics/motor.png');
 	height: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	background-size:cover;
 }
 
 
+.imageOverlay:before{
+	background-color: inherit;
+}
+.imageOverlay:hover{
+	background-color: rgba(120,120,120,0.5)
+}
