@@ -50,8 +50,18 @@
 	background-color: #FFCF0F;
 }
 
-.names{
+ul.names{
+	display: block;
 	font-size: 100%;
+}
+ul.names li {
+	display:inline;
+}
+ul.names li::after {
+	content: " |"
+}
+ul.names li:last-child::after {
+	content: ""
 }
 
 #linksPage{
